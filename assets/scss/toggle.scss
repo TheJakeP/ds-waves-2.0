@@ -1,0 +1,21 @@
+.toggle-button{
+    background-color: #707070; 
+    &.active {
+        background-color: #1CB809 !important;
+        &>.inner-circle {
+            margin-left: 50px
+        }
+    }
+}
+
+.toggle-button-disabled{
+    background-color: #707070;
+    cursor: pointer;
+}
+
+.ds-transition{
+    -webkit-transition: all 0.3s 0.1s ease-in-out;
+    -moz-transition: all 0.3s 0.1s ease-in-out;
+    -o-transition: all 0.3s 0.1s ease-in-out;
+    transition: all 0.3s 0.1s ease-in-out
+}

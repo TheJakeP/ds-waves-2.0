@@ -1,0 +1,45 @@
+.plus_circle {
+    background: url("/wp-content/plugins/waves/assets/images/icons/plus_circle.svg") no-repeat center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+.minus_circle {
+    background: url("/wp-content/plugins/waves/assets/images/icons/minus_circle.svg") no-repeat center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+
+.white_check_mark {
+    background: url("/wp-content/plugins/waves/assets/images/icons/white_check_mark.svg") no-repeat center;
+    background-size: 18px auto;
+}
+.white_question_mark {
+    background: url("/wp-content/plugins/waves/assets/images/icons/white_question_mark.svg") no-repeat center;
+    background-size: auto 18px;
+}
+
+.white_exclamation_mark {
+    background: url("/wp-content/plugins/waves/assets/images/icons/white_exclamation_mark.svg") no-repeat center;
+    background-size: auto 16px;
+}
+
+.gray_search_icon {
+    background: url("/wp-content/plugins/waves/assets/images/icons/search.svg") no-repeat center;
+    background-size: auto 26px;
+    min-width: 26px;
+    min-height: 26px;
+    background-position:cover;
+}
+
+.blue_back_arrow {
+    background: url("/wp-content/plugins/waves/assets/images/icons/blue_back_arrow.svg") no-repeat center;
+    background-size: auto 26px;
+    min-width: 26px;
+    min-height: 26px;
+    background-position:cover;
+}
+.blue_back_arrow:hover {
+    color: rgba(134, 183, 241, var(--tw-text-opacity)) !important;
+}
